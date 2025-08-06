@@ -1,0 +1,43 @@
+
+.carousel .control-arrow {
+  display: none;
+}
+
+
+.carousel .control-dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.carousel .control-dots .dot {
+  display: inline-block;
+  width: 5vw; 
+  height: 2px; 
+ 
+  background: #fff;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.carousel .control-dots .dot.active {
+  background: #0056b3; 
+}
+
+
+@media (max-width: 768px) {
+  .carousel .control-dots .dot {
+    width: 5vw; 
+    height: 3px; 
+     
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel .control-dots .dot {
+    width: 10vw; 
+    height: 3px; 
+    
+  }
+}
