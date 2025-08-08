@@ -16,7 +16,7 @@ function Pcg() {
           style={{ backgroundImage: `url(${pcg1})` }}
         >
           <div className="absolute top-[45%] left-[50%] w-[70%] transform translate-x-full -translate-y-1/2 p-5">
-            <h1 className="text-3xl lg:text-5xl text-[#19325b] font-bold mt-5 mb-4">
+            <h1 className="text-3xl lg:text-5xl text-[#19325b] font-bold mb-4" style={{marginTop:"45px"}}>
               Perfect Companion India (PCIN)
             </h1>
             <p className="text-zinc-500 text-lg">
