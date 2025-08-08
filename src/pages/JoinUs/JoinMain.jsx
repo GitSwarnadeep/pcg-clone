@@ -41,22 +41,22 @@ function JoinMain() {
   <h2 className="text-3xl lg:text-5xl text-blue-900 mb-8">Benefits in return</h2>
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
     <div className="bg-white border-2 shadow-md px-6 py-4 text-center flex flex-col items-center">
-      <img src={bonus} alt="" className="mb-4" />
+      <img src={bonus} alt="PCIN" className="mb-4" />
       <h3 className="text-xl font-bold text-gray-800 mb-2">Annual Bonus</h3>
       
     </div>
     <div className="bg-white border-2 shadow-md px-6 py-4 text-center flex flex-col items-center">
-      <img src={salary} alt="" className="mb-4" />
+      <img src={salary} alt="PCIN" className="mb-4" />
       <h3 className="text-xl font-bold text-gray-800 mb-2">Annual adjustment</h3>
       
     </div>
     <div className="bg-white border-2 shadow-md px-6 py-4 text-center flex flex-col items-center">
-      <img src={heal} alt="" className="mb-4" />
+      <img src={heal} alt="PCIN" className="mb-4" />
       <h3 className="text-xl font-bold text-gray-800 mb-2">Medical Expenses</h3>
      
     </div>
     <div className="bg-white border-2 shadow-md px-6 py-4 text-center flex flex-col items-center">
-      <img src={help} alt="" className="mb-4" />
+      <img src={help} alt="PCIN" className="mb-4" />
       <h3 className="text-xl font-bold text-gray-800 mb-2">Employee grants</h3>
       
     </div>

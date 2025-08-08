@@ -108,7 +108,7 @@ const ProductList = () => {
             <div className="flex justify-between mb-3">
               <h2 className="flex gap-2">
                 <span>
-                  <img src="/filter.svg" className="size-5 inline-block" />
+                  <img src="/filter.svg" className="size-5 inline-block" alt="filter img"/>
                 </span>
                 <span className="text-lg font-medium text-[#19325b]">
                   Filter

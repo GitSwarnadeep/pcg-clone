@@ -47,7 +47,7 @@ const MapComponent = () => {
           ))}
         </MapContainer>
       </div> */}
-      <img src='/assets/map.png' className='size-full'/>
+      <img src='/assets/map.png' className='size-full' alt='map img'/>
     </div>
   );
 };
