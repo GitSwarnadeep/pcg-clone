@@ -16,7 +16,7 @@ function Pcg() {
           style={{ backgroundImage: `url(${pcg1})` }}
         >
           <div className="absolute top-[45%] left-[50%] w-[70%] transform translate-x-full -translate-y-1/2 p-5">
-            <h1 className="text-4xl lg:text-6xl text-[#19325b] font-bold mb-4">
+            <h1 className="text-3xl lg:text-5xl text-[#19325b] font-bold mt-5 mb-4">
               Perfect Companion India (PCIN)
             </h1>
             <p className="text-zinc-500 text-lg">
@@ -25,7 +25,7 @@ function Pcg() {
             <div className="relative flex flex-col lg:flex-row items-center justify-evenly lg:justify-start text-center lg:text-left mt-4">
               <Link to={"/about"}>
                 <button className="border text-black font-bold py-2 px-4 flex justify-between gap-8 items-center text-lg">
-                  About PCG
+                  About PCIN
                   <IoIosArrowForward />
                 </button>
               </Link>

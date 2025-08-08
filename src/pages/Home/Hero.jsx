@@ -10,15 +10,15 @@ import "../../App.css";
 const slidesData = [
   {
     bgpic: bgPic1,
-    heading: "Perfect Companion India",
-    text: "Trusted Brand for Premium Dog Food & Cat Food to Ensure Pet Health & Happiness",
+    heading: "SmartHeart | Best nutrition for a Healthy, Happy Dog",
+    text: "Trusted brand for premium dog food designed to boost health and vitality. SmartHeart delivers complete and balanced nutrition for your furry friend",
     button: "See More Details",
     link: "/about", 
   },
   {
     bgpic: bgPic2,
-    heading: "SmartHeart | Best nutrition for a Healthy, Happy Dog",
-    text: "Trusted brand for premium dog food designed to boost health and vitality. SmartHeart delivers complete and balanced nutrition for your furry friend.",
+    heading: "Me-O | Premium Nutrition for Cats",
+    text: "Discover Me-O cat food, a trusted brand for delicious and nutritious meals. Ensure your cat’s health, energy, and happiness with every bite.",
     button: "See More Details",
     link: "/about",
   },

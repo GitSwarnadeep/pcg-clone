@@ -5,6 +5,7 @@ import { FaShare } from "react-icons/fa";
 import BlogCard1 from "./BlogCard1";
 import BlogCard2 from "./BlogCard2";
 import BlogCard3 from "./BlogCard3";
+import BlogCard4 from "./BlogCard4";
 
 const blogs = [
   {
@@ -26,6 +27,12 @@ const blogs = [
     image: "/assets/blog-pic3.png",
     date: "May 8, 2024",
     title: "When a cat wags its tail What signal is he sending?",
+  },
+  {
+    id: 4,
+    image: "/assets/blog-pic3.png",
+    date: "May 8, 2024",
+    title: "How to Choose the Best Dog Food for Your Pet's Breed and Age",
   },
 ];
 
@@ -92,6 +99,7 @@ const BlogDetail = () => {
               {id === "1" && <BlogCard1 />} {/* Render BlogCard1 if ID is 1 */}
               {id === "2" && <BlogCard2 />} {/* Render BlogCard2 if ID is 2 */}
               {id === "3" && <BlogCard3 />} {/* Render BlogCard2 if ID is 2 */}
+              {id === "4" && <BlogCard4 />} {/* Render BlogCard2 if ID is 2 */}
               <button
                 onClick={handleShare}
                 className="flex items-center border bg-gray-100 text-black font-medium rounded-md py-2 px-5 gap-3 mt-5 mb-10"
