@@ -119,7 +119,7 @@ function ContactMain() {
               Contact us
             </h2>
             <p className="text-xl font-semibold text-blue-900">
-              Perfect Companion Group
+              Perfect Companion India
             </p>
             <p className="lg:text-3xl text-xl text-gray-700 mt-4">
               Consumer Service Center Perfect Companion Pet Care
@@ -135,12 +135,7 @@ function ContactMain() {
 
           <div className="text-center flex justify-center text-gray-400 mb-8 px-6">
             <p className="lg:max-w-4xl text-xl ">
-              Your feedback will be forwarded to different departments in
-              Perfect Company Group Co., Ltd. to help improve the product and
-              services of the company. We'd love to receive information about
-              pets and your opinion. However, we recommend that you consult with
-              your regular veterinarian first. For specific questions about the
-              health of your dog and cat.
+              Your valuable feedback will be shared with various departments at Perfect Companion India, to continuously improve our pet food products and services. We welcome your insights about your pets and experiences with our brands. For any specific health concerns or questions about your dog or cat, we strongly recommend consulting your trusted veterinarian for expert advice.
             </p>
           </div>
 
@@ -161,7 +156,7 @@ function ContactMain() {
                 care.smartheart@gmail.com
               </p>
               <p className="mt-4 text-center text-xl text-gray-800">
-              care.meoindia@gmail.com
+              care.meoindia@gmail.com 
               </p>
             </div>
           </div>

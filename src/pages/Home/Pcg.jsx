@@ -17,13 +17,10 @@ function Pcg() {
         >
           <div className="absolute top-[45%] left-[50%] w-[70%] transform translate-x-full -translate-y-1/2 p-5">
             <h1 className="text-4xl lg:text-6xl text-[#19325b] font-bold mb-4">
-              PCG
+              Perfect Companion India (PCIN)
             </h1>
             <p className="text-zinc-500 text-lg">
-              Perfect Companion Group Co., Ltd. was established in 1979 by a
-              group of pet food specialists who have been well aware that the
-              pet owners these days regard their pets not only as just pets but
-              also as companions.
+              Perfect Companion India delivers premium pet nutrition through trusted brands like SmartHeart, Me-O, SmartHeart Gold, and Cuties Catz. Catering to pet parents who see their pets as companions, PCIN provides the best dog food and cat food, ensuring health, happiness, and vitality for your beloved pets.
             </p>
             <div className="relative flex flex-col lg:flex-row items-center justify-evenly lg:justify-start text-center lg:text-left mt-4">
               <Link to={"/about"}>
@@ -39,14 +36,7 @@ function Pcg() {
         {/* Text Block with Blue Background (Behind Other Images) */}
         <div className="absolute top-[50%] left-[13%] w-[40%] h-[50%] bg-[#19325b] text-white flex justify-start items-center p-5 text-xl z-10">
           <div className="w-[500px]">
-            The concept of pet food in the market nowadays is following that of
-            human food. Modern pet owners carefully select food for their pets
-            as they want to be certain that the food is safe, hygienic, and
-            healthy for them. As we are fully aware of this important market
-            trend, we thus always keep our production facility highly
-            standardized. Continuous Investment to bring up and maintain our
-            manufacturing establishment at international standard has become one
-            of our key success factors in this severely competitive industry.
+            The pet food market now mirrors human food trends, with pet parents seeking safe, hygienic, and healthy options. Perfect Companion India (PCIN) meets these needs through trusted brands like SmartHeart, Me-O, SmartHeart Gold, and Cuties Catz. Our international-standard facilities and continuous investment ensure we deliver the best dog food and best cat food. With a focus on quality and innovation, we prioritize pet health, happiness, and vitality, leading the competitive pet food industry.
           </div>
         </div>
 

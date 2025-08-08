@@ -10,15 +10,15 @@ import "../../App.css";
 const slidesData = [
   {
     bgpic: bgPic1,
-    heading: "Perfect Companion Group",
-    text: "Perfect Companion Group aims to enrich the quality of life of both human and pets.",
+    heading: "Perfect Companion India",
+    text: "Trusted Brand for Premium Dog Food & Cat Food to Ensure Pet Health & Happiness",
     button: "See More Details",
     link: "/about", 
   },
   {
     bgpic: bgPic2,
-    heading: "Perfect Companion Group",
-    text: "Perfect Companion Group aims to enrich the quality of life of both human and pets.",
+    heading: "SmartHeart | Best nutrition for a Healthy, Happy Dog",
+    text: "Trusted brand for premium dog food designed to boost health and vitality. SmartHeart delivers complete and balanced nutrition for your furry friend.",
     button: "See More Details",
     link: "/about",
   },

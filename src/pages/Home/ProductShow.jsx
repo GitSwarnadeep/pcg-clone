@@ -72,8 +72,7 @@ function ProductShow() {
           Products
         </h1>
         <p className="text-[#19325b] lg:text-xl font-medium text-center text-balance">
-          Useful high-quality ingredients help to increase pets happiness and
-          longevity.
+          High-Quality Ingredients for Your Pet's Health and Happiness
         </p>
       </div>
 

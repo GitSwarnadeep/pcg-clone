@@ -15,10 +15,7 @@ function VisionAndMission() {
           <h2 className="text-blue-600 text-xl  mb-6">Vision and Mission</h2>
           <h3 className="text-3xl lg:text-5xl  text-gray-900 mb-6">Vision</h3>
           <p className="text-gray-700 mb-6">
-            Perfect Companion Group Co., Ltd. was founded with the objective to take the quality of life of both the
-            owners and the pets to the next level. By attentively creating and constantly developing our products, we
-            are confident that our products and services will play a part in building a strong bond between you and
-            your pets.
+            Perfect Companion India (PCIN) is dedicated to improving the quality of life for pets and owners by providing premium, nutritious pet food. We strive to be a trusted leader in the pet food industry, delivering nutrition and care that promote health, happiness, and vitality for your beloved pets.
           </p>
           <img
             src={vission}

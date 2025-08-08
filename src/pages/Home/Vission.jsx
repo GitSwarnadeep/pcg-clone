@@ -20,11 +20,7 @@ function VisionAndMission() {
           Vision and Mission
         </h2>
         <p className="text-lg text-[#19325b] font-semibold text-center w-full max-w-6xl mx-auto my-8">
-          Perfect Companion Group Co., Ltd. was founded with the objective to
-          take the quality of life of both the owners and the pets to the next
-          level. By attentively creating and constantly developing our products,
-          we are confident that our products and services will play a part in
-          building a strong bond between you and your pets.
+         At Perfect Companion India, our mission is to elevate the quality of life for both pets and their owners. As part of the globally renowned Perfect Companion Group, we are committed to creating and continuously improving our products to meet the highest standards of pet care.
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 mb-6">

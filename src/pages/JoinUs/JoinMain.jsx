@@ -16,7 +16,7 @@ function JoinMain() {
           <h1 className="lg:text-6xl text-4xl  lg:mb-6 mb-4 text-blue-900">Join Our Family</h1>
           <div className=' text-xl max-w-2xl '>
           <p className=" text-zinc-600 mb-6">
-            At Perfect Company, We value personal resources because they are the cornerstone of economic, social and corporate mobility. Let's move forward and grow sustainably.
+              At Perfect Companion India, We value personal resources because they are the cornerstone of economic, social and corporate mobility. Let's move forward and grow sustainably.
           </p>
           <p className=" text-blue-900 mb-6">
             To be able to work efficiently in the ever-changing world of technology and prepare for the rapid expansion of the company's business to work in Thailand and all regions of the world.

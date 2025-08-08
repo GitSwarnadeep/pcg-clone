@@ -78,8 +78,9 @@ const InformationSection = () => {
                 </h2>
                 <h1 className="text-3xl md:text-5xl my-8">Perfect Companion Group</h1>
                 <p className="text-base md:text-lg text-gray-700 mb-4">
-                  Perfect Companion Group Co., Ltd. was established in 1979 by a group of pet food specialists who have been well aware that the pet owners these days regarding their pets not only as just pets but also as companions. <br />
-                  The main goals of customer service are...
+Perfect Companion India, the Indian arm of the globally trusted Perfect Companion Group, has been committed to revolutionizing pet care since its inception in 1979. Founded by a team of pet food specialists, we recognize that today’s pet parents regard their pets as cherished companions, deserving the best in nutrition and care.
+
+The modern pet food market mirrors human food trends, with owners prioritizing safe, hygienic, and healthy options for their furry companions. At PCIN, we align with this vision by maintaining international-standard production facilities and investing continuously in advanced manufacturing technologies. This ensures that our products featuring trusted brands like SmartHeart, Me-O, SmartHeart Gold, and Cuties Catz, deliver optimal health and happiness to pets.
                 </p>
               </div>
               {/* Image Section */}
