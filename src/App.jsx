@@ -11,6 +11,7 @@ import ProductDetails from './pages/Products/ProductDetails';
 import BlogList from './pages/Blogs/Blogs';
 import BlogDetail from './pages/Blogs/BlogDetail';
 import Tvc from './pages/TV_Commercial/Tvc';
+import Career from './pages/Career/Career';
 
 export default function App() {
   const Wrapper = ({ children }) => {
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/blogs" element={<BlogList />} />
           <Route path="/blogs/:id" element={<BlogDetail />} />
           <Route path="/tvc" element={<Tvc />} />
+          <Route path="/career" element={<Career />} />
           
         </Routes>
       </Wrapper>

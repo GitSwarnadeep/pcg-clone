@@ -1,0 +1,193 @@
+import React from 'react'
+import BannerImg from "/assets/career/banner_img.png";
+import WorkBg from "/assets/career/why_workbg.png";
+import WhyworkIcon1 from "/assets/career/why_workicon1.png";
+import WhyworkIcon2 from "/assets/career/why_workicon2.png";
+import WhyworkIcon3 from "/assets/career/why_workicon3.png";
+import ResumeImg from "/assets/career/resume_img.png";
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+
+
+const Career = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3, // show 3 items at once
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024, // tablet and below
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 640, // mobile
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  };
+  return (
+    <>
+      <Navbar/>
+      <section className='bg-white' style={{padding:"60px 0px"}}>
+        <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
+            <div className='grid grid-cols-12 gap-4'>
+                 <div className='col-span-12 md:col-span-5'>
+                     <h1 className="text-6xl lg:text-7xl lg:mb-4 font-bold pt-10" style={{color:"#1E3A8A"}}>
+                        Build your future with us
+                     </h1>
+                     <p className='my-6'>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                     </p>
+                     <a href='#' className='flex items-center' style={{color:"#1E3A8A"}}>
+                      Explore Open Roles <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>
+                      </a>
+                 </div>
+                 <div className='col-span-12 md:col-span-7'>
+                      <img src={BannerImg} alt='banner img' className="w-full h-auto"/>
+                 </div>
+            </div>
+        </div>
+      </section>
+      <section className="relative bg-cover bg-center p-6 py-5 pb-14" style={{ backgroundImage: `url(${WorkBg})` } }>
+          <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
+            <div className='grid grid-cols-12 gap-4'>
+              <div className='col-span-12 md:col-span-12'>
+                  <div className='text-center px-36 mb-16'>
+                     <h2 className='text-white font-bold my-3 lg:text-6xl lg:mb-4'>Why work at PCIN</h2>
+                     <p className='text-white font-normal my-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+                  </div>
+                  <Slider {...settings}>
+                    <div>
+                      <div className='bg-white rounded-[10px] p-10 text-center mx-2'>
+                        <img src={WhyworkIcon1} className='m-auto'/>
+                        <h3 className='text-black text-6xl lg:text-3xl my-3 font-medium'>Annual Bonus</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
+                      </div>
+                    </div>
+                    <div>
+                      <div className='bg-white rounded-[10px] p-10 text-center mx-2'>
+                        <img src={WhyworkIcon2} className='m-auto'/>
+                        <h3 className='text-black text-6xl lg:text-3xl my-3 font-medium'>Annual adjustment</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
+                      </div>
+                    </div>
+                    <div>
+                      <div className='bg-white rounded-[10px] p-10 text-center mx-2'>
+                        <img src={WhyworkIcon3} className='m-auto'/>
+                        <h3 className='text-black text-6xl lg:text-3xl my-3 font-medium'>Employee grants</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
+                      </div>
+                    </div>
+                    <div>
+                      <div className='bg-white rounded-[10px] p-10 text-center mx-2'>
+                        <img src={WhyworkIcon1} className='m-auto'/>
+                        <h3 className='text-black text-6xl lg:text-3xl my-3 font-medium'>Annual Bonus</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
+                      </div>
+                    </div>
+                    <div>
+                      <div className='bg-white rounded-[10px] p-10 text-center mx-2'>
+                        <img src={WhyworkIcon2} className='m-auto'/>
+                        <h3 className='text-black text-6xl lg:text-3xl my-3 font-medium'>Annual adjustment</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
+                      </div>
+                    </div>
+                  </Slider>
+              </div>
+            </div>
+          </div>  
+      </section>
+      <section className='bg-white' style={{padding:"60px 0px"}}>
+        <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
+            <div className='grid grid-cols-12 gap-4'>
+                <div className='col-span-12 md:col-span-12'>
+                  <h2 className='text-6xl lg:text-5xl lg:mb-4 font-bold' style={{color:"#1E3A8A"}}>Open Positions</h2>
+                </div>
+                <div className='col-span-12 md:col-span-12'>
+                  <Slider {...settings}>
+                     <div>
+                        <div className='rounded-[10px] p-10 mx-2' style={{background:"#F8F8F8" , border:"1px solid #CECECE"}}>
+                           <h6 className='bg-white p-2 text-center rounded-[10px]' style={{width:"30%", border:" 0.4px solid #CECECE" ,}}>Marketing</h6>
+                           <h3 style={{color:"#3D3D3D"}} className='text-6xl lg:text-3xl mb-3 font-semibold pt-5'>Social Media Intern</h3>
+                           <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           </p>
+                           <a href='#' style={{border:" 2px solid #1E3A8A" , color:"#1E3A8A" , display:"block"}} className='font-semibold mt-10 mb-3 p-3 text-center rounded-[5px] lg:text-1xl'>Apply Now</a>
+                           <a href='#' className='w-100 lg:text-1xl text-center' style={{display:"block"}}>View Details</a>
+                        </div>
+                     </div>
+                     <div>
+                        <div className='rounded-[10px] p-10 mx-2' style={{background:"#F8F8F8" , border:"1px solid #CECECE"}}>
+                           <h6 className='bg-white p-2 text-center rounded-[10px]' style={{width:"35%", border:" 0.4px solid #CECECE"}}>management</h6>
+                           <h3 style={{color:"#3D3D3D"}} className='text-6xl lg:text-3xl mb-3 font-semibold pt-5'>Talent Acquisition</h3>
+                           <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           </p>
+                           <a href='#' style={{border:" 2px solid #1E3A8A" , color:"#1E3A8A" , display:"block"}} className='font-semibold mt-10 mb-3 p-3 text-center rounded-[5px] lg:text-1xl'>Apply Now</a>
+                           <a href='#' className='w-100 lg:text-1xl text-center' style={{display:"block"}}>View Details</a>
+                        </div>
+                     </div>
+                     <div>
+                        <div className='rounded-[10px] p-10 mx-2' style={{background:"#F8F8F8" , border:"1px solid #CECECE"}}>
+                           <h6 className='bg-white p-2 text-center rounded-[10px]' style={{width:"30%", border:" 0.4px solid #CECECE"}}>Accounts</h6>
+                           <h3 style={{color:"#3D3D3D"}} className='text-6xl lg:text-3xl mb-3 font-semibold pt-5'>Senior Accountant</h3>
+                           <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           </p>
+                           <a href='#' style={{border:" 2px solid #1E3A8A" , color:"#1E3A8A" , display:"block"}} className='font-semibold mt-10 mb-3 p-3 text-center rounded-[5px] lg:text-1xl'>Apply Now</a>
+                           <a href='#' className='w-100 lg:text-1xl text-center' style={{display:"block"}}>View Details</a>
+                        </div>
+                     </div>
+                     <div>
+                        <div className='rounded-[10px] p-10 mx-2' style={{background:"#F8F8F8" , border:"1px solid #CECECE"}}>
+                           <h6 className='bg-white p-2 text-center rounded-[10px]' style={{width:"30%", border:" 0.4px solid #CECECE"}}>Marketing</h6>
+                           <h3 style={{color:"#3D3D3D"}} className='text-6xl lg:text-3xl mb-3 font-semibold pt-5'>Social Media Intern</h3>
+                           <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           </p>
+                           <a href='#' style={{border:" 2px solid #1E3A8A" , color:"#1E3A8A" , display:"block"}} className='font-semibold mt-10 mb-3 p-3 text-center rounded-[5px] lg:text-1xl'>Apply Now</a>
+                           <a href='#' className='w-100 lg:text-1xl text-center' style={{display:"block"}}>View Details</a>
+                        </div>
+                     </div>
+                     
+                    
+                  </Slider>
+                </div>
+            </div>
+        </div>
+      </section> 
+      <section className='bg-white' style={{padding:"60px 0px"}}>
+        <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
+            <div className='grid grid-cols-12 gap-4'>
+                <div className='col-span-12 md:col-span-5'>
+                    <img src={ResumeImg} className='w-auto'/>
+                </div>  
+                <div className='col-span-12 md:col-span-7'>
+                   <h2 style={{color:"#1E3A8A"}} className='text-6xl lg:text-5xl font-bold mb-6'>Didn't Find a Role? Upload Your Resume</h2>
+                   <p>We're always hiring great talent. Send us your CV.</p>
+                   <form className='grid grid-cols-12 gap-4'>
+                        <div className='col-span-12 md:col-span-6'>
+                            <label style={{color:"#3D3D3D", width:"100%"}}>Full Name</label>
+                            <input type='text' className='mt-3' placeholder='Enter your full name ' style={{background:"#F8F8F8",border:"1px solid #CECECE",borderRadius:"6px", height:"40px", width:"100%", outline:"none"}}/>
+                        </div> 
+                   </form>
+                </div>  
+            </div>
+        </div>
+      </section>           
+      <Footer />
+    </>
+  )
+}
+
+export default Career;
