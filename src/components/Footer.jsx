@@ -45,6 +45,7 @@ function Footer() {
           <p className="mb-2">GREATER NOIDA,</p>
           <p className="mb-2">Gautam Buddha Nagar, Uttar Pradesh, 201308</p>
           <p className="mb-2">Mob: +91 9940625518</p>
+          <p className="mb-2">Timing: (Mon-Fri 09:30AM -  5.30PM )</p>
           {/* <p className="">Email: care.smartheart@gmail.com | care.meoindia@gmail.com</p> */}
           {/* <p className="ml-12">care.meoindia@gmail.com</p> */}
           <div className="flex gap-2">
@@ -56,7 +57,8 @@ function Footer() {
           </div>
         </div>
 
-        <div className="w-full md:w-1/3">
+        <div className="w-full md:w-1/3 lg:pl-32">
+          <h2 className="text-lg font-bold mb-4">Quick Links</h2>
           <ul className="list-disc ml-4">
             <li>
               <Link to="/about#company" className="hover:underline">
@@ -86,7 +88,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="w-full lg:w-1/3">
+        <div className="w-full lg:w-1/3 pl-20">
           <h2 className="text-lg font-bold mb-4">Products</h2>
           <ul className="list-disc ml-4">
             {categoryList.map((category) => (

@@ -5,6 +5,8 @@ import WhyworkIcon1 from "/assets/career/why_workicon1.png";
 import WhyworkIcon2 from "/assets/career/why_workicon2.png";
 import WhyworkIcon3 from "/assets/career/why_workicon3.png";
 import ResumeImg from "/assets/career/resume_img.png";
+import OurMission from "/assets/career/our_mission.png";
+import OurVision from "/assets/career/our_vision.png";
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import Slider from "react-slick";
@@ -170,21 +172,86 @@ const Career = () => {
         <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
             <div className='grid grid-cols-12 gap-4'>
                 <div className='col-span-12 md:col-span-5'>
-                    <img src={ResumeImg} className='w-auto'/>
+                    <img src={ResumeImg} style={{width:"100%"}}/>
                 </div>  
-                <div className='col-span-12 md:col-span-7'>
-                   <h2 style={{color:"#1E3A8A"}} className='text-6xl lg:text-5xl font-bold mb-6'>Didn't Find a Role? Upload Your Resume</h2>
-                   <p>We're always hiring great talent. Send us your CV.</p>
+                <div className='col-span-12 md:col-span-7 lg:pl-10'>
+                   <h2 style={{color:"#1E3A8A"}} className='text-6xl lg:text-5xl pr-10 font-bold mb-6'>Didn't Find a Role? Upload Your Resume</h2>
+                   <p className='mb-10'>We're always hiring great talent. Send us your CV.</p>
                    <form className='grid grid-cols-12 gap-4'>
                         <div className='col-span-12 md:col-span-6'>
                             <label style={{color:"#3D3D3D", width:"100%"}}>Full Name</label>
-                            <input type='text' className='mt-3' placeholder='Enter your full name ' style={{background:"#F8F8F8",border:"1px solid #CECECE",borderRadius:"6px", height:"40px", width:"100%", outline:"none"}}/>
+                            <input type='text' className='mt-3 p-3' placeholder='Enter your full name ' style={{background:"#F8F8F8",border:"1px solid #CECECE",borderRadius:"6px", height:"40px", width:"100%", outline:"none"}}/>
                         </div> 
+                        <div className='col-span-12 md:col-span-6 mb-5'>
+                            <label style={{color:"#3D3D3D", width:"100%"}}>Email Address</label>
+                            <input type='text' className='mt-3 p-3' placeholder='Enter your Email ' style={{background:"#F8F8F8",border:"1px solid #CECECE",borderRadius:"6px", height:"40px", width:"100%", outline:"none"}}/>
+                        </div> 
+                        <div className='col-span-12 md:col-span-12'>
+                          <label style={{color:"#3D3D3D", width:"100%"}} className=''>Upload Resume</label>
+                          <div className="flex items-center justify-center w-full mt-3">
+                            <label for="dropzone-file" className="flex flex-col items-center justify-center w-full h-40 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-white hover:bg-gray-50">
+                              <div className="flex flex-col items-center justify-center pt-5 pb-6">
+                                <svg className="w-10 h-10 mb-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5-5m0 0l5 5m-5-5v12" />
+                                </svg>
+                                <p className="mb-2 text-sm text-gray-500">
+                                  <span className="font-medium text-blue-700">Click to upload</span> or drag and drop
+                                </p>
+                                <p className="text-xs text-gray-400">PDF or DOCX (max. 5MB)</p>
+                              </div>
+                              <input id="dropzone-file" type="file" className="hidden" />
+                            </label>
+                          </div>
+                          <div className='col-span-12 md:col-span-12'>
+                            <button style={{background:"#002F5F", width:"100%", borderRadius:"5px"}} className='p-4 mt-10 text-center text-white'>Send Application</button>
+                          </div>
+
+                        </div>
                    </form>
                 </div>  
             </div>
         </div>
-      </section>           
+      </section>  
+      <section className='bg-white' style={{padding:"60px 0px"}}>
+        <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
+            <div className='grid grid-cols-12 gap-4'>
+                <div className='col-span-12 md:col-span-6'>
+                  <div className="flex justify-center" style={{flexDirection:"column", height:"100%"}}>
+                    <h2 style={{color:"#1E3A8A"}} className='text-6xl lg:text-5xl pr-10 font-bold mb-5'>Our Mission</h2>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    </p>
+                  </div>  
+                </div>
+                <div className='col-span-12 md:col-span-6'>
+                   <img src={OurMission} style={{width:"100%"}}/>
+                </div>
+                <div className='col-span-12 md:col-span-6'>
+                   <img src={OurVision} style={{width:"100%"}}/>
+                </div>
+                <div className='col-span-12 md:col-span-6'>
+                  <div className="flex justify-center pl-10" style={{flexDirection:"column", height:"100%"}}>
+                    <h2 style={{color:"#1E3A8A"}} className='text-6xl lg:text-5xl pr-10 font-bold mb-5'>Our Mission</h2>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    </p>
+                  </div>  
+                </div>
+            </div>  
+        </div>
+      </section> 
+      <section className='bg-white' style={{padding:"60px 0px"}}>
+        <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
+            <div className='grid grid-cols-12 gap-4'>
+                <div className='col-span-12 md:col-span-12'>
+                  <h2 style={{color:"#1E3A8A"}} className='text-6xl lg:text-5xl pr-10 font-bold mb-5'>People are what matters</h2>
+                </div>
+                <div className='col-span-12 md:col-span-4'>
+                  
+                </div>
+            </div>   
+        </div>
+      </section>               
       <Footer />
     </>
   )
