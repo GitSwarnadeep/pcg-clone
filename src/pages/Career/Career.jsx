@@ -7,6 +7,7 @@ import WhyworkIcon3 from "/assets/career/why_workicon3.png";
 import ResumeImg from "/assets/career/resume_img.png";
 import OurMission from "/assets/career/our_mission.png";
 import OurVision from "/assets/career/our_vision.png";
+import ProductManagerImg from "/assets/career/product_managerimg.png";
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import Slider from "react-slick";
@@ -247,7 +248,37 @@ const Career = () => {
                   <h2 style={{color:"#1E3A8A"}} className='text-6xl lg:text-5xl pr-10 font-bold mb-5'>People are what matters</h2>
                 </div>
                 <div className='col-span-12 md:col-span-4'>
-                  
+                  <div style={{border: "1px solid #CECECE", background:"#F8F8F8", borderRadius:"15px"}} className='p-5'>
+                    <div>
+                      <img src={ProductManagerImg} alt='img' style={{width:"100%"}}/>
+                    </div>
+                    <div>
+                       <h3 className='text-6xl lg:text-3xl text-center font-bold pt-10 mb-2' style={{color:"#3D3D3D"}}>Jane Doe</h3>
+                       <h5 className='text-6xl lg:text-3xl text-center font-medium' style={{color:"#555555"}}>Product Manager</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className='col-span-12 md:col-span-4'>
+                  <div style={{border: "1px solid #CECECE", background:"#F8F8F8", borderRadius:"15px"}} className='p-5'>
+                    <div>
+                      <img src={ProductManagerImg} alt='img' style={{width:"100%"}}/>
+                    </div>
+                    <div>
+                       <h3 className='text-6xl lg:text-3xl text-center font-bold pt-10 mb-2' style={{color:"#3D3D3D"}}>Jane Doe</h3>
+                       <h5 className='text-6xl lg:text-3xl text-center font-medium' style={{color:"#555555"}}>Product Manager</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className='col-span-12 md:col-span-4'>
+                  <div style={{border: "1px solid #CECECE", background:"#F8F8F8", borderRadius:"15px"}} className='p-5'>
+                    <div>
+                      <img src={ProductManagerImg} alt='img' style={{width:"100%"}}/>
+                    </div>
+                    <div>
+                       <h3 className='text-6xl lg:text-3xl text-center font-bold pt-10 mb-2' style={{color:"#3D3D3D"}}>Jane Doe</h3>
+                       <h5 className='text-6xl lg:text-3xl text-center font-medium' style={{color:"#555555"}}>Product Manager</h5>
+                    </div>
+                  </div>
                 </div>
             </div>   
         </div>
