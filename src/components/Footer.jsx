@@ -45,7 +45,7 @@ function Footer() {
           <p className="mb-2">GREATER NOIDA,</p>
           <p className="mb-2">Gautam Buddha Nagar, Uttar Pradesh, 201308</p>
           <p className="mb-2">Mob: +91 9940625518</p>
-          <p className="mb-2">Timing: (Mon-Fri 09:30AM -  5.30PM )</p>
+          <p className="mb-2">Timing: Mon-Fri (09:30AM - 5:30PM)</p>
           {/* <p className="">Email: care.smartheart@gmail.com | care.meoindia@gmail.com</p> */}
           {/* <p className="ml-12">care.meoindia@gmail.com</p> */}
           <div className="flex gap-2">
