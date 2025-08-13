@@ -133,7 +133,7 @@ function ContactMain() {
             </button>
           </div>
           <p className="lg:text-2xl text-xl text-gray-700 mb-4 text-center">
-              Timing: (Mon-Fri 09:30AM -  5.30PM )
+              Timing: Mon-Fri (09:30AM - 5:30PM)
             </p>
 
           <div className="text-center flex justify-center text-gray-400 mb-8 px-6">
