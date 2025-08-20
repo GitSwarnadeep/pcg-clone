@@ -8,6 +8,10 @@ import ResumeImg from "/assets/career/resume_img.png";
 import OurMission from "/assets/career/our_mission.png";
 import OurVision from "/assets/career/our_vision.png";
 import ProductManagerImg from "/assets/career/product_managerimg.png";
+import GalleryImg1 from "/assets/career/empowered_galleryimg1.png";
+import GalleryImg2 from "/assets/career/empowered_galleryimg2.png";
+import GalleryImg3 from "/assets/career/empowered_galleryimg3.png";
+import GalleryImg4 from "/assets/career/empowered_galleryimg4.png";
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import Slider from "react-slick";
@@ -41,11 +45,11 @@ const Career = () => {
   return (
     <>
       <Navbar/>
-      <section className='bg-white' style={{padding:"60px 0px"}}>
+      <section className='bg-white lg:py-20 md:py-5'>
         <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
             <div className='grid grid-cols-12 gap-4'>
                  <div className='col-span-12 md:col-span-5'>
-                     <h1 className="text-6xl lg:text-7xl lg:mb-4 font-bold pt-10" style={{color:"#1E3A8A"}}>
+                     <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pt-10 lg:mb-4 text-primary" style={{color:"#1E3A8A"}}>
                         Build your future with us
                      </h1>
                      <p className='my-6'>
@@ -65,43 +69,43 @@ const Career = () => {
           <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
             <div className='grid grid-cols-12 gap-4'>
               <div className='col-span-12 md:col-span-12'>
-                  <div className='text-center px-36 mb-16'>
-                     <h2 className='text-white font-bold my-3 lg:text-6xl lg:mb-4'>Why work at PCIN</h2>
+                  <div className='text-center lg:px-36 mb-16'>
+                     <h2 className='text-white font-bold my-3 text-3xl sm:text-3xl md:text-4xl lg:text-5xl'>Why work at PCIN</h2>
                      <p className='text-white font-normal my-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
                   </div>
                   <Slider {...settings}>
                     <div>
                       <div className='bg-white rounded-[10px] p-10 text-center mx-2'>
                         <img src={WhyworkIcon1} className='m-auto'/>
-                        <h3 className='text-black text-6xl lg:text-3xl my-3 font-medium'>Annual Bonus</h3>
+                        <h3 className='text-black my-3 font-medium text-3xl sm:text-2xl md:text-2xl lg:text-3xl'>Annual Bonus</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
                       </div>
                     </div>
                     <div>
                       <div className='bg-white rounded-[10px] p-10 text-center mx-2'>
                         <img src={WhyworkIcon2} className='m-auto'/>
-                        <h3 className='text-black text-6xl lg:text-3xl my-3 font-medium'>Annual adjustment</h3>
+                        <h3 className='text-black my-3 font-medium text-3xl sm:text-2xl md:text-2xl lg:text-3xl'>Annual adjustment</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
                       </div>
                     </div>
                     <div>
                       <div className='bg-white rounded-[10px] p-10 text-center mx-2'>
                         <img src={WhyworkIcon3} className='m-auto'/>
-                        <h3 className='text-black text-6xl lg:text-3xl my-3 font-medium'>Employee grants</h3>
+                        <h3 className='text-black my-3 font-medium text-3xl sm:text-2xl md:text-2xl lg:text-3xl'>Employee grants</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
                       </div>
                     </div>
                     <div>
                       <div className='bg-white rounded-[10px] p-10 text-center mx-2'>
                         <img src={WhyworkIcon1} className='m-auto'/>
-                        <h3 className='text-black text-6xl lg:text-3xl my-3 font-medium'>Annual Bonus</h3>
+                        <h3 className='text-black my-3 font-medium text-3xl sm:text-2xl md:text-2xl lg:text-3xl'>Annual Bonus</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
                       </div>
                     </div>
                     <div>
                       <div className='bg-white rounded-[10px] p-10 text-center mx-2'>
                         <img src={WhyworkIcon2} className='m-auto'/>
-                        <h3 className='text-black text-6xl lg:text-3xl my-3 font-medium'>Annual adjustment</h3>
+                        <h3 className='text-black my-3 font-medium text-3xl sm:text-2xl md:text-2xl lg:text-3xl'>Annual adjustment</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
                       </div>
                     </div>
@@ -110,18 +114,18 @@ const Career = () => {
             </div>
           </div>  
       </section>
-      <section className='bg-white' style={{padding:"60px 0px"}}>
+      <section className='bg-white lg:py-20 md:py-5'>
         <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
             <div className='grid grid-cols-12 gap-4'>
                 <div className='col-span-12 md:col-span-12'>
-                  <h2 className='text-6xl lg:text-5xl lg:mb-4 font-bold' style={{color:"#1E3A8A"}}>Open Positions</h2>
+                  <h2 className='text-3xl sm:text-3xl md:text-4xl lg:text-5xl lg:mb-4 font-bold' style={{color:"#1E3A8A"}}>Open Positions</h2>
                 </div>
                 <div className='col-span-12 md:col-span-12'>
                   <Slider {...settings}>
                      <div>
                         <div className='rounded-[10px] p-10 mx-2' style={{background:"#F8F8F8" , border:"1px solid #CECECE"}}>
-                           <h6 className='bg-white p-2 text-center rounded-[10px]' style={{width:"30%", border:" 0.4px solid #CECECE" ,}}>Marketing</h6>
-                           <h3 style={{color:"#3D3D3D"}} className='text-6xl lg:text-3xl mb-3 font-semibold pt-5'>Social Media Intern</h3>
+                           <h6 className='bg-white p-2 text-center rounded-[10px]' style={{border:" 0.4px solid #CECECE" , display:"inline"}}>Marketing</h6>
+                           <h3 style={{color:"#3D3D3D"}} className='text-1xl sm:text-1xl md:text-2xl lg:text-2xl mb-3 font-semibold pt-5'>Social Media Intern</h3>
                            <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                            </p>
@@ -131,8 +135,8 @@ const Career = () => {
                      </div>
                      <div>
                         <div className='rounded-[10px] p-10 mx-2' style={{background:"#F8F8F8" , border:"1px solid #CECECE"}}>
-                           <h6 className='bg-white p-2 text-center rounded-[10px]' style={{width:"35%", border:" 0.4px solid #CECECE"}}>management</h6>
-                           <h3 style={{color:"#3D3D3D"}} className='text-6xl lg:text-3xl mb-3 font-semibold pt-5'>Talent Acquisition</h3>
+                           <h6 className='bg-white p-2 text-center rounded-[10px]' style={{border:" 0.4px solid #CECECE" , display:"inline"}}>management</h6>
+                           <h3 style={{color:"#3D3D3D"}} className='text-1xl sm:text-1xl md:text-2xl lg:text-2xl mb-3 font-semibold pt-5'>Talent Acquisition</h3>
                            <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                            </p>
@@ -142,8 +146,8 @@ const Career = () => {
                      </div>
                      <div>
                         <div className='rounded-[10px] p-10 mx-2' style={{background:"#F8F8F8" , border:"1px solid #CECECE"}}>
-                           <h6 className='bg-white p-2 text-center rounded-[10px]' style={{width:"30%", border:" 0.4px solid #CECECE"}}>Accounts</h6>
-                           <h3 style={{color:"#3D3D3D"}} className='text-6xl lg:text-3xl mb-3 font-semibold pt-5'>Senior Accountant</h3>
+                           <h6 className='bg-white p-2 text-center rounded-[10px]' style={{border:" 0.4px solid #CECECE" , display:"inline"}}>Accounts</h6>
+                           <h3 style={{color:"#3D3D3D"}} className='text-1xl sm:text-1xl md:text-2xl lg:text-2xl mb-3 font-semibold pt-5'>Senior Accountant</h3>
                            <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                            </p>
@@ -153,8 +157,8 @@ const Career = () => {
                      </div>
                      <div>
                         <div className='rounded-[10px] p-10 mx-2' style={{background:"#F8F8F8" , border:"1px solid #CECECE"}}>
-                           <h6 className='bg-white p-2 text-center rounded-[10px]' style={{width:"30%", border:" 0.4px solid #CECECE"}}>Marketing</h6>
-                           <h3 style={{color:"#3D3D3D"}} className='text-6xl lg:text-3xl mb-3 font-semibold pt-5'>Social Media Intern</h3>
+                           <h6 className='bg-white p-2 text-center rounded-[10px]' style={{border:" 0.4px solid #CECECE" , display:"inline"}}>Marketing</h6>
+                           <h3 style={{color:"#3D3D3D"}} className='text-1xl sm:text-1xl md:text-2xl lg:text-2xl mb-3 font-semibold pt-5'>Social Media Intern</h3>
                            <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                            </p>
@@ -169,14 +173,14 @@ const Career = () => {
             </div>
         </div>
       </section> 
-      <section className='bg-white' style={{padding:"60px 0px"}}>
+      <section className='bg-white lg:py-20 md:py-5'>
         <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
             <div className='grid grid-cols-12 gap-4'>
                 <div className='col-span-12 md:col-span-5'>
                     <img src={ResumeImg} style={{width:"100%"}}/>
                 </div>  
                 <div className='col-span-12 md:col-span-7 lg:pl-10'>
-                   <h2 style={{color:"#1E3A8A"}} className='text-6xl lg:text-5xl pr-10 font-bold mb-6'>Didn't Find a Role? Upload Your Resume</h2>
+                   <h2 style={{color:"#1E3A8A"}} className='text-3xl sm:text-3xl md:text-4xl lg:text-5xl pr-10 font-bold mb-6'>Didn't Find a Role? Upload Your Resume</h2>
                    <p className='mb-10'>We're always hiring great talent. Send us your CV.</p>
                    <form className='grid grid-cols-12 gap-4'>
                         <div className='col-span-12 md:col-span-6'>
@@ -213,12 +217,12 @@ const Career = () => {
             </div>
         </div>
       </section>  
-      <section className='bg-white' style={{padding:"60px 0px"}}>
+      <section className='bg-white lg:py-20 md:py-5'>
         <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
             <div className='grid grid-cols-12 gap-4'>
                 <div className='col-span-12 md:col-span-6'>
                   <div className="flex justify-center" style={{flexDirection:"column", height:"100%"}}>
-                    <h2 style={{color:"#1E3A8A"}} className='text-6xl lg:text-5xl pr-10 font-bold mb-5'>Our Mission</h2>
+                    <h2 style={{color:"#1E3A8A"}} className='text-3xl sm:text-3xl md:text-3xl lg:text-4xl pr-10 font-bold mb-5'>Our Mission</h2>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
                     </p>
@@ -232,7 +236,7 @@ const Career = () => {
                 </div>
                 <div className='col-span-12 md:col-span-6'>
                   <div className="flex justify-center pl-10" style={{flexDirection:"column", height:"100%"}}>
-                    <h2 style={{color:"#1E3A8A"}} className='text-6xl lg:text-5xl pr-10 font-bold mb-5'>Our Mission</h2>
+                    <h2 style={{color:"#1E3A8A"}} className='text-3xl sm:text-3xl md:text-3xl lg:text-4xl pr-10 font-bold mb-5'>Our Mission</h2>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
                     </p>
@@ -241,11 +245,11 @@ const Career = () => {
             </div>  
         </div>
       </section> 
-      <section className='bg-white' style={{padding:"60px 0px"}}>
+      <section className='bg-white lg:py-20 md:py-5'>
         <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
             <div className='grid grid-cols-12 gap-4'>
                 <div className='col-span-12 md:col-span-12'>
-                  <h2 style={{color:"#1E3A8A"}} className='text-6xl lg:text-5xl pr-10 font-bold mb-5'>People are what matters</h2>
+                  <h2 style={{color:"#1E3A8A"}} className='text-3xl sm:text-3xl md:text-3xl lg:text-5xl pr-10 font-bold mb-5'>People are what matters</h2>
                 </div>
                 <div className='col-span-12 md:col-span-4'>
                   <div style={{border: "1px solid #CECECE", background:"#F8F8F8", borderRadius:"15px"}} className='p-5'>
@@ -253,8 +257,8 @@ const Career = () => {
                       <img src={ProductManagerImg} alt='img' style={{width:"100%"}}/>
                     </div>
                     <div>
-                       <h3 className='text-6xl lg:text-3xl text-center font-bold pt-10 mb-2' style={{color:"#3D3D3D"}}>Jane Doe</h3>
-                       <h5 className='text-6xl lg:text-3xl text-center font-medium' style={{color:"#555555"}}>Product Manager</h5>
+                       <h3 className='text-2xl sm:text-2xl md:text-2xl lg:text-3xl text-center font-bold pt-10 mb-2' style={{color:"#3D3D3D"}}>Jane Doe</h3>
+                       <h5 className='text-2xl sm:text-2xl md:text-2xl lg:text-3xl text-center font-medium' style={{color:"#555555"}}>Product Manager</h5>
                     </div>
                   </div>
                 </div>
@@ -264,8 +268,8 @@ const Career = () => {
                       <img src={ProductManagerImg} alt='img' style={{width:"100%"}}/>
                     </div>
                     <div>
-                       <h3 className='text-6xl lg:text-3xl text-center font-bold pt-10 mb-2' style={{color:"#3D3D3D"}}>Jane Doe</h3>
-                       <h5 className='text-6xl lg:text-3xl text-center font-medium' style={{color:"#555555"}}>Product Manager</h5>
+                       <h3 className='text-2xl sm:text-2xl md:text-2xl lg:text-3xl text-center font-bold pt-10 mb-2' style={{color:"#3D3D3D"}}>Jane Doe</h3>
+                       <h5 className='text-2xl sm:text-2xl md:text-2xl lg:text-3xl text-center font-medium' style={{color:"#555555"}}>Product Manager</h5>
                     </div>
                   </div>
                 </div>
@@ -275,14 +279,49 @@ const Career = () => {
                       <img src={ProductManagerImg} alt='img' style={{width:"100%"}}/>
                     </div>
                     <div>
-                       <h3 className='text-6xl lg:text-3xl text-center font-bold pt-10 mb-2' style={{color:"#3D3D3D"}}>Jane Doe</h3>
-                       <h5 className='text-6xl lg:text-3xl text-center font-medium' style={{color:"#555555"}}>Product Manager</h5>
+                       <h3 className='text-2xl sm:text-2xl md:text-2xl lg:text-3xl text-center font-bold pt-10 mb-2' style={{color:"#3D3D3D"}}>Jane Doe</h3>
+                       <h5 className='text-2xl sm:text-2xl md:text-2xl lg:text-3xl text-center font-medium' style={{color:"#555555"}}>Product Manager</h5>
                     </div>
                   </div>
                 </div>
             </div>   
         </div>
-      </section>               
+      </section>  
+      <section className='bg-white lg:py-20 md:py-5'>
+        <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
+            <div className='grid grid-cols-12 gap-4'>
+                <div className='col-span-12 md:col-span-12'>
+                  <h2 style={{color:"#1E3A8A"}} className='text-3xl sm:text-3xl md:text-4xl lg:text-5xl pr-10 font-bold mb-5'>
+                    Welcome to Our Empowered Gallery
+                  </h2>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown .
+                  </p>
+                </div>
+                <div className='col-span-12 md:col-span-12'>
+                  <div className=''>
+                    <img src={GalleryImg1} alt='Gallery Img' className="w-full"/>
+                  </div>
+                </div>
+                <div className='col-span-12 md:col-span-4 sm:col-span-12'>
+                  <div className=''>
+                    <img src={GalleryImg2} alt='Gallery Img' className="w-full"/>
+                  </div>
+                </div>
+                <div className='col-span-12 md:col-span-4 sm:col-span-12'>
+                  <div className=''>
+                    <img src={GalleryImg3} alt='Gallery Img' className="w-full"/>
+                  </div>
+                </div>
+                <div className='col-span-12 md:col-span-4 sm:col-span-12'>
+                  <div className=''>
+                    <img src={GalleryImg4} alt='Gallery Img' className="w-full"/>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+      </section>                       
       <Footer />
     </>
   )
