@@ -48,7 +48,7 @@ const Career = () => {
       <section className='bg-white lg:py-20 md:py-5'>
         <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
             <div className='grid grid-cols-12 gap-4'>
-                 <div className='col-span-12 md:col-span-5'>
+                  <div className='col-span-12 md:col-span-5'>
                      <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pt-10 lg:mb-4 text-primary" style={{color:"#1E3A8A"}}>
                         Build your future with us
                      </h1>
@@ -58,10 +58,10 @@ const Career = () => {
                      <a href='#' className='flex items-center' style={{color:"#1E3A8A"}}>
                       Explore Open Roles <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>
                       </a>
-                 </div>
-                 <div className='col-span-12 md:col-span-7'>
+                  </div>
+                  <div className='col-span-12 md:col-span-7'>
                       <img src={BannerImg} alt='banner img' className="w-full h-auto"/>
-                 </div>
+                  </div>
             </div>
         </div>
       </section>
@@ -114,7 +114,7 @@ const Career = () => {
             </div>
           </div>  
       </section>
-      <section className='bg-white lg:py-20 md:py-5'>
+      <section className='bg-white lg:py-10 md:py-5'>
         <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
             <div className='grid grid-cols-12 gap-4'>
                 <div className='col-span-12 md:col-span-12'>
@@ -173,7 +173,7 @@ const Career = () => {
             </div>
         </div>
       </section> 
-      <section className='bg-white lg:py-20 md:py-5'>
+      <section className='bg-white lg:py-10 md:py-5'>
         <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
             <div className='grid grid-cols-12 gap-4'>
                 <div className='col-span-12 md:col-span-5'>
@@ -210,14 +210,13 @@ const Career = () => {
                           <div className='col-span-12 md:col-span-12'>
                             <button style={{background:"#002F5F", width:"100%", borderRadius:"5px"}} className='p-4 mt-10 text-center text-white'>Send Application</button>
                           </div>
-
                         </div>
                    </form>
                 </div>  
             </div>
         </div>
       </section>  
-      <section className='bg-white lg:py-20 md:py-5'>
+      <section className='bg-white lg:py-10 md:py-5'>
         <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
             <div className='grid grid-cols-12 gap-4'>
                 <div className='col-span-12 md:col-span-6'>
@@ -245,7 +244,7 @@ const Career = () => {
             </div>  
         </div>
       </section> 
-      <section className='bg-white lg:py-20 md:py-5'>
+      <section className='bg-white lg:py-10 md:py-5'>
         <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
             <div className='grid grid-cols-12 gap-4'>
                 <div className='col-span-12 md:col-span-12'>
@@ -287,7 +286,7 @@ const Career = () => {
             </div>   
         </div>
       </section>  
-      <section className='bg-white lg:py-20 md:py-5'>
+      <section className='bg-white lg:py-10 md:py-5'>
         <div className='container mx-auto px-4 lg:px-24 py-2 flex justify-between items-center'>
             <div className='grid grid-cols-12 gap-4'>
                 <div className='col-span-12 md:col-span-12'>
