@@ -75,6 +75,30 @@ const SocialMediaSlider = () => {
       name: "Me-O",
       url: "https://www.instagram.com/meo.india1/",
     },
+    {
+      platform: "Facebook",
+      icon: facebook,
+      name: "Cuties Catz",
+      url: "https://www.facebook.com/cutiescatzindia",
+    },
+    {
+      platform: "Instagram",
+      icon: instagram,
+      name: "Cuties Catz",
+      url: "https://www.instagram.com/cutiescatz_india/",
+    },
+    {
+      platform: "Facebook",
+      icon: facebook,
+      name: "Me-O Gold",
+      url: "https://www.facebook.com/MeOGoldIndia",
+    },
+    {
+      platform: "Instagram",
+      icon: instagram,
+      name: "Me-O Gold",
+      url: "instagram.com/meogold_india/",
+    },
     // {
     //   platform: "Facebook",
     //   icon: facebook,
